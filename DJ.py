@@ -44,12 +44,12 @@ logo = """
  | |   | | |     | |__| | |__| |
  |_|   |_|_|     |_____/  \___/
  
-jalan("\033[1;91m=======================================")
-jalan("\033[1;96mAuthor  \033[1;93m: \033[1;92mSMR")
-jalan("\033[1;96mYouTube \033[1;93m: \033[1;92mSMR White Devil MILON ")
-jalan("\033[1;96mGitHub  \033[1;93m: \033[1;92mhttps://github.com/SMRmilon01/Mr_DJ")
-jalan("\033[1;96mBlogger \033[1;93m: \033[1;92mhttps://www.facebook.com/SMR_White_Devil_MILON")
-jalan("\033[1;91m======================================="""")
+\033[1;91m=======================================
+\033[1;96mAuthor  \033[1;93m: \033[1;92mSMR
+\033[1;96mYouTube \033[1;93m: \033[1;92mSMR_White_Devil_MILON 
+\033[1;96mGitHub  \033[1;93m: \033[1;92mhttps://github.com/SMRmilon01/smrDJ
+\033[1;96mBlogger \033[1;93m: \033[1;92mhttps://www.facebook.com/SMR_White_Devil_MILON
+\033[1;91m======================================="""
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
